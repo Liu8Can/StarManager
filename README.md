@@ -63,6 +63,7 @@ GITHUB_TOKEN=your_github_pat
 ```
 
 > **Note:** You need to grant the `repo` and `read:user` scopes to the PAT. And do not commit the `.env` file to your Git repository!
+
 > Important Note:
 > In the `get_starred_repos.py` script, change `username = "Liu8Can"` to your own GitHub username!
 

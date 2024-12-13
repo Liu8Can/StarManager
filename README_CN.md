@@ -61,6 +61,7 @@ GITHUB_TOKEN=your_github_pat
 ```
 
 > **注意:**  需要授予 `repo` 和 `read:user` 权限,并且不要将 `.env` 文件提交到 Git 仓库中！
+
 > **重要提示：**  
 > 1. `get_starred_repos.py` 脚本中的 `username = "你的用户名"` 修改为你自己的 GitHub 用户名！
 
