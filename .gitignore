@@ -1,0 +1,20 @@
+# 忽略 .env 文件，保护你的 GitHub Token
+.env
+
+# 忽略 Python 缓存目录
+**/__pycache__/
+*.pyc
+
+# 忽略数据目录，这些数据每次运行都会重新生成
+/data/*.json
+!/data/labels.json
+
+# 忽略 Markdown 报告，每次都会重新生成
+starred_repos_report.md
+
+# 编辑器或 IDE 生成的文件和目录 (可选，根据你的实际情况添加)
+.idea/
+
+# 系统文件(可选)
+Thumbs.db
+.DS_Store
