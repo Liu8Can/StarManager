@@ -70,7 +70,7 @@ def main():
     if not token:
         raise ValueError("未找到 GITHUB_TOKEN 环境变量。请确保已在 .env 文件中设置了该变量。")
 
-    username = "Liu8Can"  # 将这里替换成你的 GitHub 用户名
+    username = ""  # 将这里替换成你的 GitHub 用户名
 
     all_stars = get_all_starred_repos(username, token)
 
